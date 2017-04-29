@@ -1,7 +1,17 @@
 #!/usr/bin/env python
 
-#Search running machine in network 172.22.24.0
-import os
+class Calculator:
+    def __init__(self):
+        pass
 
-for i in range(2,254):
-  os.system("ping -c 2 172.22.24."+ str(i))
+    def add(self, x, y):
+        return x + y
+
+    def mul(self, x, y):
+        return x * y
+
+
+if __name__ == '__main__':
+    cal = Calculator()
+print(cal.add(2, 3))
+print(cal.mul(2, 3))
