@@ -1,1 +1,1 @@
-docker pull rhel7
+docker pull registry.access.redhat.com/rhel7
