@@ -1,1 +1,1 @@
-docker pull registry.access.redhat.com/rhel7
+docker pull alpine
